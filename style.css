@@ -1,7 +1,7 @@
 /* ============================================================
    AEON SUZAKA LP — 畑と台所 シェアキッチン
    Art Direction: Warm / Natural / Organic / Welcoming
-   Palette: Warm cream surfaces, earthy green accent, warm clay secondary
+   Palette: Warm cream surfaces, earthy orange accent, warm yellow-orange secondary
    Fonts: Noto Serif JP (display) + Noto Sans JP (body)
    ============================================================ */
 
@@ -45,17 +45,17 @@
   --color-text-faint:  #b8b0a4;
   --color-text-inverse:#fdfcf8;
 
-  /* Earthy Green Accent (primary) */
-  --color-primary:          #4a7c59;
-  --color-primary-hover:    #3a6146;
-  --color-primary-active:   #2d4e37;
-  --color-primary-highlight:#d6e8db;
-  --color-primary-light:    #eaf3ec;
+  /* Earthy Orange Accent (primary) */
+  --color-primary:          #D35400;
+  --color-primary-hover:    #B34700;
+  --color-primary-active:   #8F3900;
+  --color-primary-highlight:#F9DCC4;
+  --color-primary-light:    #FCF0E6;
 
-  /* Warm Clay (secondary) */
-  --color-secondary:        #c4714a;
-  --color-secondary-hover:  #a85c3a;
-  --color-secondary-light:  #f5e8e0;
+  /* Warm Yellow-Orange (secondary) */
+  --color-secondary:        #E8960A;
+  --color-secondary-hover:  #C47D08;
+  --color-secondary-light:  #FDF3D0;
 
   /* LINE Green */
   --color-line:       #06C755;
@@ -99,13 +99,14 @@
   --color-text:            #e8e2d8;
   --color-text-muted:      #8f8878;
   --color-text-faint:      #5e5848;
-  --color-primary:         #7db88c;
-  --color-primary-hover:   #5da070;
-  --color-primary-highlight:#2a3d2f;
-  --color-primary-light:   #1e2f22;
-  --color-secondary:       #e09070;
-  --color-secondary-hover: #c87555;
-  --color-secondary-light: #3a2318;
+  --color-primary:         #E8783A;
+  --color-primary-hover:   #D35400;
+  --color-primary-active:  #B34700;
+  --color-primary-highlight:#3D2010;
+  --color-primary-light:   #2E1A0C;
+  --color-secondary:       #F0AA1A;
+  --color-secondary-hover: #D39010;
+  --color-secondary-light: #3A2C05;
   --shadow-sm: 0 1px 3px rgba(0,0,0,0.25);
   --shadow-md: 0 4px 16px rgba(0,0,0,0.35);
   --shadow-lg: 0 12px 40px rgba(0,0,0,0.45);
@@ -123,13 +124,14 @@
     --color-text:            #e8e2d8;
     --color-text-muted:      #8f8878;
     --color-text-faint:      #5e5848;
-    --color-primary:         #7db88c;
-    --color-primary-hover:   #5da070;
-    --color-primary-highlight:#2a3d2f;
-    --color-primary-light:   #1e2f22;
-    --color-secondary:       #e09070;
-    --color-secondary-hover: #c87555;
-    --color-secondary-light: #3a2318;
+    --color-primary:         #E8783A;
+    --color-primary-hover:   #D35400;
+    --color-primary-active:  #B34700;
+    --color-primary-highlight:#3D2010;
+    --color-primary-light:   #2E1A0C;
+    --color-secondary:       #F0AA1A;
+    --color-secondary-hover: #D39010;
+    --color-secondary-light: #3A2C05;
     --shadow-sm: 0 1px 3px rgba(0,0,0,0.25);
     --shadow-md: 0 4px 16px rgba(0,0,0,0.35);
     --shadow-lg: 0 12px 40px rgba(0,0,0,0.45);
@@ -415,7 +417,7 @@ a, button, [role="button"] {
 
 .hero-title em {
   font-style: normal;
-  color: #c8e6bc;
+  color: #ffd4a8;
 }
 
 .hero-sub {
@@ -1006,7 +1008,7 @@ a, button, [role="button"] {
   content: "";
   position: absolute;
   inset: 0;
-  background: linear-gradient(135deg, rgba(74,124,89,0.9), rgba(44,69,55,0.95));
+  background: linear-gradient(135deg, rgba(211,84,0,0.9), rgba(143,57,0,0.95));
   z-index: 0;
 }
 
