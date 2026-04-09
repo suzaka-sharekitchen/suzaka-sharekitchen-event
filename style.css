@@ -286,7 +286,7 @@ a, button, [role="button"] {
   flex-shrink: 0;
 }
 .logo:hover { opacity: 0.75; }
-.logo-text { display: none; }
+.logo-text {font-family: var(--font-body);}
 @media (min-width: 480px) { .logo-text { display: block; } }
 
 .header-nav {
