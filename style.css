@@ -774,24 +774,20 @@ a, button, [role="button"] {
 /* Info list (DL) */
 .info-list {
   display: grid;
-  grid-template-columns: repeat(3, 1fr); /* dd を3列固定 */
+  grid-template-columns: auto 1fr;
   gap: var(--space-3) var(--space-5);
   font-size: var(--text-sm);
-}
+  align-items: baseline;
 }
 
 .info-list dt {
-  grid-column: 1 / -1; /* 3列すべてを占有 */
   font-weight: 700;
   color: var(--color-text-muted);
   white-space: nowrap;
-  margin-bottom: 8px;
+   margin-bottom: 8px;
 }
 
-.info-list dd {
-  color: var(--color-text);
-  margin: 0;
-}
+.info-list dd { color: var(--color-text); }
 
 .price {
   font-size: var(--text-lg);
